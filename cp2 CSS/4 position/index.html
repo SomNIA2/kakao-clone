@@ -13,8 +13,9 @@
       }
       body {
         height: 400%;
-        background-color: red;
+        background-color: rgb(106, 214, 173);
       }
+      /*
       #boxOne {
         height: 300px;
         width: 300px;
@@ -28,15 +29,40 @@
         background-color: green;
         position: fixed;
         top: 10px;
+        left: 500px;
+        */
+
+        .abs-box{
+            height:400px;
+            width:400px;
+            background-color: skyblue;
+            position:relative;
+
+            position:fixed;
+
+        }
+        .abs-child
+        {
+            height:100px;
+            width: 100px;
+            background-color: mediumslateblue;
+            position:absolute;
+            right:10px;
+        }
       }
     </style>
   </head>
+
   <body>
-    <div class="boxOne">
+    <div class="abs-box">
+      <div class="abs-child"></div>
+    </div>
+    <div id="boxOne">
       <div class="box-child"></div>
     </div>
-    <div class="boxTwo">
+    <div id="boxTwo">
       <div class="box-child"></div>
     </div>
+    */
   </body>
 </html>
