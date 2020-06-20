@@ -1,0 +1,13 @@
+.box {
+  background-color: red;
+  font-size: 40px;
+}
+.box:hover {
+  background-color: pink;
+}
+.box:active {
+  background-color: skyblue;
+}
+.box:focus {
+  background-color: blue;
+}
