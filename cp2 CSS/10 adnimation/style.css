@@ -1,0 +1,19 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  animation: 5s scale-and-rotate-square infinite ease-in-out;
+}
+@keyframes scale-and-rotate-square {
+  0% {
+    transform: none;
+    background-color: coral;
+  }
+  20% {
+    transform: rotate(1turn) scale(0.5, 0.5);
+  }
+  100% {
+    transform: none;
+    background-color: cornflowerblue;
+  }
+}
